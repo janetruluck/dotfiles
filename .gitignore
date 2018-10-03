@@ -1,0 +1,10 @@
+.DS_Store
+backups/*
+!backups/.gitkeep
+swaps/*
+!swaps/.gitkeep
+undos/*
+!undos/.gitkeep
+plugged/*
+!plugged/.gitkeep
+configstore/*

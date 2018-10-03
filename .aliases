@@ -1,0 +1,21 @@
+# TMUX
+alias tmuxrld="tmux source-file ~/.tmux.conf"
+alias ta="tmux attach -t"
+alias tn="tmux new -s"
+alias ts="tmux switch -t"
+alias tl="tmux list-sessions"
+
+# GIT
+alias cleanremotemerged="git branch -r --merged | grep -v master | sed 's/origin\///'  | xargs -n 1 git push --delete origin"
+alias cleanlocalmerged="git branch --merged master | grep -v \"\\* master\" | xargs -n 1 git branch -d"
+alias gdl="git diff --unified=0"
+
+# BUNDLER
+alias bi="bundle install"
+alias bup="bundle update"
+
+# OTHER
+alias ll="ls -la"
+alias mkdir="mkdir -p"
+alias chrome="/usr/bin/open -a '/Applications/Google Chrome.app'"
+alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
