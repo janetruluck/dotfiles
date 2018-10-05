@@ -1,4 +1,5 @@
 # TMUX
+alias tmux="TERM=screen-256color tmux"
 alias tmuxrld="tmux source-file ~/.tmux.conf"
 alias ta="tmux attach -t"
 alias tn="tmux new -s"

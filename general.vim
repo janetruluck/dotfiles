@@ -8,6 +8,7 @@ let undo_dir = base_dir . 'undos'
 let swap_dir = base_dir . 'swaps'
 
 " Settings
+set background=dark
 set t_Co=256                        " Set vim to 256 color
 scriptencoding utf-8
 filetype plugin indent on           " Automatically detect file types.

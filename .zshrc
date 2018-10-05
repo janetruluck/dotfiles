@@ -63,6 +63,7 @@ plugins=(
   bundler
   rails
   web-search
+  pyenv
 )
 
 source $ZSH/oh-my-zsh.sh
